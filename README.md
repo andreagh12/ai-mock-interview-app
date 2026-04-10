@@ -1,29 +1,33 @@
-# Insurance Recommendation Chatbot
+# AI Practice Job Interview App
 
-AI-powered chatbot that provides personalised insurance recommendations based on user input.
+AI-powered application that simulates job interviews and provides feedback based on user responses.
 
 ## Tech used
-- React
-- Node.js
-- Express
-- Generative AI API
+- React  
+- Vite  
+- Node.js  
+- Express  
+- Google Gemini API  
+- CORS  
 
 ## Overview
-This project was developed as part of the Mission Ready programme.
+This project was developed as part of a training programme in a team environment.  
 
-The application uses a chat-based interface to guide users through a series of questions and generate insurance recommendations. It integrates a generative AI API to process user input and return dynamic responses.
+The goal was to build a mock job interview application that allows users to practice interviews for different roles. The application uses generative AI to dynamically generate interview questions and provide feedback based on user responses.
 
 ## Features
-- Chat-based user interface
-- Personalised recommendations based on user input
-- Integration with generative AI API
-- Frontend and backend communication via API
+- AI-generated interview questions  
+- Role-specific interview simulation  
+- Dynamic conversation between user and AI  
+- Feedback provided at the end of the interview  
+- Real-time chat interface  
+- Frontend and backend integration via API  
 
 ## My contribution
-- Built frontend interface using React
-- Developed backend API using Node.js and Express
-- Integrated generative AI API for recommendations
-- Managed user input and response flow
+- Built the full-stack application using React and Node.js  
+- Integrated Google Gemini API for dynamic question generation  
+- Implemented chat interface and response flow  
+- Managed interview logic and feedback generation  
 
 ## Note
-The full source code for this project is private as it was developed as part of a training programme. This repository is intended to showcase the project and my contributions.rt of a training programme. This repository is intended to showcase the project and my contributions.
+This project was developed as part of a training programme in a team environment. This repository showcases my contribution to the project and focuses on applying generative AI in a full-stack application rather than full production functionality.
