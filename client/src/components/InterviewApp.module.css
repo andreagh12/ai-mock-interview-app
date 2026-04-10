@@ -1,0 +1,97 @@
+.container {
+  max-width: 800px;
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: var(--turners-blue);
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.jobInputSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.jobInputSection label {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.jobInputSection input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.inputSection {
+  display: flex;
+  gap: 10px;
+}
+
+.inputSection textarea {
+  flex: 1;
+  resize: none;
+  padding: 10px;
+height: 40px;
+font-size: 15px;
+}
+
+.inputSection button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: var(--turners-blue);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  transition: all 0.15s ease;
+}
+
+.inputSection button:hover {
+  background-color: #005bb5;
+  transform: translateY(-1px);
+}
+
+.inputSection button:active {
+  transform: translateY(1px);
+}
+
+.buttonRow {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.buttonRow button {
+  flex: 1;
+  background-color: var(--turners-blue);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttonRow button:hover {
+  background-color: #005bb5;
+}
+
+.buttonRow button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
